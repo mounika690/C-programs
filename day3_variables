@@ -1,0 +1,35 @@
+/*
+here i am talking about variables
+1.what is variable ?
+-->I is a container to store data how we store things in boxes,bottles
+2.Types of variables
+--> INT FLOAT DOUBLE CHAR _BOOL
+3.usage :
+int → stores whole numbers, e.g., int age = 20;
+
+float → stores decimal numbers, e.g., float pi = 3.14;
+
+double → high-precision decimal numbers, e.g., double price = 99.99;
+
+char → stores a single character, e.g., char grade = 'A';
+
+_Bool → stores boolean, 0 (false) or 1 (true)
+Tip: Always choose the type that fits your data to optimize memory!
+
+*/
+
+#include <stdio.h>
+int main() {
+    int age = 21;
+    char grade = 'A';
+    float marks = 88.5;
+    printf("Age: %d, Grade: %c, Marks: %.2f\n", age, grade, marks);
+    return 0;
+}
+
+
+
+
+
+
+
