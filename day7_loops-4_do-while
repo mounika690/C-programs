@@ -1,0 +1,30 @@
+/*What it does: Run the code at least once, then repeat while the condition is true.
+Example: Print numbers 0 to 4 
+*/
+
+#include <stdio.h>
+
+int main() 
+{
+    int i = 0;
+    do {
+        printf("%d\n", i);
+        i++;
+    } while(i < 5);
+    return 0;
+}
+/*
+TIP : don't forget the semicolomn at last 
+OUTPUT :
+0
+1
+2
+3
+4
+
+
+Explanation:
+1.The do block runs first → prints i=0
+2.Then checks i<5 → true → repeats
+3.Ensures loop runs at least once even if condition is false
+*/
