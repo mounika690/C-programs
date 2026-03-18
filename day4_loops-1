@@ -1,0 +1,25 @@
+/*
+1.What is a Loop?
+--> A loop is a way to repeat a task multiple times without writing the same code again and again.
+EXAMPLE :Think of it like telling a robot: “Do this 5 times” instead of giving the same instruction 5 times
+
+2.Why do we use Loops?
+--> To save time and make code shorter.
+-->To avoid errors from writing repetitive code
+
+EXAMPLE :To perform tasks efficiently, like printing numbers, calculating sums, or processing lists
+
+How does it work?
+-->Loops check a condition before or after running the code and repeat the code as long as the condition is true.
+
+Types of loops
+| Loop Type  | How it Works                                                    | Example                                           |
+| ---------- | --------------------------------------------------------------- | ------------------------------------------------  |
+| for        | Repeat a fixed number of times                                  | for(int i=0;i<5;i++) printf("%d\n",i);            |
+| while      | Repeat **while a condition is true**                            | int i=0; while(i<5){ printf("%d\n",i); i++; }     |
+| do-while   | Run code **at least once**, then repeat while condition is true | int i=0; do{ printf("%d\n",i); i++; } while(i<5); |
+
+
+*/
+
+Tip: Loops are like shortcuts in programming – they make your life easier and your code cleaner!
