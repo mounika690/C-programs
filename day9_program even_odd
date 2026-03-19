@@ -1,0 +1,21 @@
+//Upto now we know about the conditions lets implement them with some programs
+
+#include <stdio.h>
+
+int main() 
+{
+    int num;  //initialize the number
+    printf("Enter a number: ");
+    scanf("%d", &num); //reading a number
+
+    if (num % 2 == 0) //checking if the number is even or odd
+    {
+        printf("Even number");
+    } 
+    else 
+    {
+        printf("Odd number");
+    }
+
+    return 0;
+}
