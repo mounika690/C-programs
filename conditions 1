@@ -1,0 +1,64 @@
+/*
+1.What are Conditions in C?
+-->Conditions are used to make decisions in a program.
+-->Instead of running all code, the program checks something and decides:
+** DO this or
+**DO that
+
+2.Why we use conditions
+-->We use conditions when:
+-->You want different outputs based on input
+-->You need decision making
+-->You want to control program flow
+3.Types of conditional statements in C
+i. if
+    -->Runs code only if condition is true
+SYNTAX :
+   if (condition) 
+     {
+              // code
+      }
+ii. if -else 
+    -->choose between between two conditions
+SYNTAX :
+   if (condition) 
+     {
+              // code
+      }
+  else
+     {
+        //code
+     }
+
+iii. if -else if
+    -->choose between multiple conditions
+SYNTAX :
+   if (condition) 
+     {
+         // code
+      }
+  else if
+     {
+        //code
+     }
+  else
+     {
+        //code
+     }
+
+4.switch
+-->Used when checking one variable with many values.
+SYNTAX :
+switch(condition)
+{
+case 1:
+//code
+break;
+case 2:
+//code
+break;
+default:
+//code
+break;
+
+*/
