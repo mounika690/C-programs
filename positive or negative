@@ -1,0 +1,27 @@
+/*Identifying the whether the number is positive or not*/
+
+#include <stdio.h>
+
+int main() {
+    int num;
+    scanf("%d", &num);//reading a number
+
+//checking conditions and printing 
+    if (num > 0) {
+        printf("Positive");
+    } else if (num < 0) {
+        printf("Negative");
+    } else {
+        printf("Zero");
+    }
+
+    return 0;
+/*
+ALGORITHM:
+1.Read a number
+2.Checking if the number is positive
+   1.yes -> print positive
+3.Checking if the number is negative
+   1.yes -> print negative
+4.print zero.
+*/
