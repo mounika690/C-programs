@@ -1,0 +1,29 @@
+/*
+### Write a program to find simple calculator:
+1.Input: two numbers + operator (+, -, *, /)
+2.Use if–else to perform operation
+*/
+
+#include<stdio.h>
+  int main()
+{
+  int num1,num2;
+  char ch;
+  scanf("%d %d %c",&num1,&num2,&ch);
+  if(ch == '+')
+  {
+    printf("%d",num1+num2);
+  }
+  else if(ch=='-')
+  {
+    printf("%d",num1-num2);
+  }
+  else if(ch=='/')
+  {
+    printf("%d",num1/num2);
+  }
+  else
+  {
+    printf("not valid");
+  }
+}
