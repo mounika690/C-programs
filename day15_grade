@@ -1,0 +1,30 @@
+/*
+# Write a program to calculate grade based on marks:
+
+1.90+ → A
+2.75–89 → B
+3.50–74 → C
+4.<50 → Fail
+*/
+
+#include<stdio.h>
+  int main()
+{
+  int marks;
+  scanf("%d",&marks);
+  if(marks>=90)
+  {
+    printf("The grade is A");
+  }
+  else if(marks>=75 && marks<=89)
+  {
+    printf("The grade is B");
+  }
+  else if(marks>=50 && marks<=74)
+  {
+    printf("The grade is C");
+  }
+  else
+  {
+    printf("You are fail");
+  }
