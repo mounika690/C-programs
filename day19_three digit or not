@@ -1,0 +1,19 @@
+/*
+  Write a program to know given number is three digit number using if - else
+*/
+
+#include<stdio.h>
+  int main()
+{
+  int num;
+  scanf("%d",&num);
+  if(num>=100 && num<=999)
+  {
+    printf("yes entered number is three digit");
+  }
+  else
+  {
+    printf("no it is not");
+  }
+  return 0;
+}
