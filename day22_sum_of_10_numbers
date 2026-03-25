@@ -1,0 +1,24 @@
+/*
+Calculate the sum of first n natural numbers.
+*/
+
+#include<stdio.h>
+  int main()
+{
+  int range;
+  scanf("%d",&range);//reading n from user
+  int sum=0;
+  for(int i=0;i<=range;i++)
+  {
+    sum =+i;
+  }
+  printf("%d",sum);
+  /*
+  //another method
+  while(!range)
+  {
+  sum=+range;
+  range--;
+  }
+  */
+}
