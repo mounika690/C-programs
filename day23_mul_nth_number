@@ -1,0 +1,16 @@
+/*
+Print the multiplication table of a given number.
+*/
+
+#include<stdio.h>
+  int main()
+{
+  int num;
+  scanf("%d",&num);//reading from user which he wants
+  //logic starts
+  for(int i=0;i<=10;i++)//intialization upto num*10
+  {
+    printf("%d",num*i);
+  }
+  
+}
