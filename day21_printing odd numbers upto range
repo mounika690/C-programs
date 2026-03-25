@@ -1,0 +1,25 @@
+/*
+  Print all odd numbers between 1 and 20.
+  */
+
+#include<stdio.h>
+  int main()
+{
+  int range;
+  scanf("%d",&range);//reading range
+  printf("odd numbers\n");
+  for(int i=0;i<=range;i++)
+  {
+    if(i%2 !=0)
+    {
+      printf("%d ",i);
+    }
+    /*
+    //another method
+    for(int i=1;i<=range;i=+2)
+    {
+    printf("%d ",i);
+    }
+    
+    */
+  }
