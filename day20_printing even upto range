@@ -1,0 +1,25 @@
+/*
+WAP to print even numbers upto user given number
+*/
+
+#include<stdio.h>
+  int main()
+{
+  int range;
+  scanf("%d",&range);//reading range from user
+  //intializing loop
+  for(int i=0;i<=range;i++)
+  {
+    if(i%2 == 0)
+    {
+      printf("%d/t",i);
+    }
+  }
+  /*
+  //another method
+  for(int i=0;i<=range;i=+2)
+  {
+  printf("%d",i);
+  }
+  */
+}
