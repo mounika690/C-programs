@@ -1,0 +1,20 @@
+/*
+-->>A factorial is a mathematical operation that multiplies a positive 
+integer by all the positive integers less than it.
+WAP to print factorial of a number
+*/
+
+#include<stdio.h>
+  int main()
+{
+  int num;
+  scanf("%d",&num);//reading number
+  //logic to factorial 
+  int factorial;
+  for(int i=0;i<=num;i++)
+  {
+    factorial =*i;
+  }
+  printf("Factorialof given number %d is %d",num,factorial);
+}
+    
