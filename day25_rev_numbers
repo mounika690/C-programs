@@ -1,0 +1,22 @@
+/*
+Print numbers in reverse order from n to 1
+*/
+
+#include<stdio.h>
+  int main()
+{
+  int num;
+  scanf("%d",&num);//reading number from user
+  for(int i=num;i<=num;i--)
+  {
+    printf("%d",i);
+  }
+  /*
+  //another method
+  while(!num)
+  {
+  printf("%d",num);
+  num--;
+  }
+  */
+}
