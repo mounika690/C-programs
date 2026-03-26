@@ -1,0 +1,38 @@
+/*
+ARRAYS Introduction and one example
+
+
+1. What is an Array?
+->An array is a collection of elements of the same data type stored in contiguous memory locations.
+2.Why use arrays?
+
+->To store multiple values of the same type under a single variable name.
+->Makes data management easier than using multiple individual variables.
+->Allows loop-based operations, like sum, search, sorting, etc.
+
+****Syntax****
+->data_type array_name[size];
+
+$$Example$$
+->int numbers[5]; // array of 5 integers
+->>Here, numbers can store 5 integers: numbers[0] to numbers[4].
+
+3. Why we Use Arrays?
+Efficient Storage: Instead of int a, b, c, d; we can use int arr[4];.
+Easy Access: Access elements using indices: arr[0], arr[1], ….
+Simplifies Loops: Perform operations on all elements using loops.
+Supports Algorithms: Sorting, searching, and mathematical operations.
+Memory Contiguity: Stored in continuous memory blocks for fast access.
+
+
+**TYPES OF ARRAYS**
+
+1.1-D Arrays
+   ->A linear list of elements.
+   EX:int arr[5] = {1, 2, 3, 4, 5};
+2.2-D Arrays
+  ->A matrix with rows and columns.
+  EX:int matrix[3][3] = {{1, 2, 3},{4, 5, 6},{7, 8, 9}};
+*/
+//NOTE : Indexing starts from 0
+
