@@ -1,0 +1,19 @@
+/*
+WAP to copy one array to another array
+*/
+
+#include<stdio.h>
+  int main()
+{
+  int size;//size of array
+  scanf("%d",&size);
+  int arr1[size];//taking array which has size elements
+  for(int i=0;i<size;i++)
+  {
+    scanf("%d",&arr1[i]);//reading array elements
+  }
+  int arr2[size];//to copy i create another array i.e arr2
+  for (int i=0;i<size;i++)
+  {
+    arr1[i] = arr2[i];
+  }
