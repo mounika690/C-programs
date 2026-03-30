@@ -1,0 +1,91 @@
+/*
+# FUNCTIONS:
+*/
+
+/*
+1. What is a Function?
+
+-->A function is a named block of code designed to perform a specific task. Think of it as a 
+mini-program inside your program.
+
+* It takes input, called parameters (optional).
+* It performs a task (logic, computation, processing).
+* It may return output, called return value (optional).
+
+->Analogy: A function is like a vending machine. You give it a coin (input), select a snack (process), and get the snack (output).
+
+2. Why Do We Use Functions?
+
+-->Functions are fundamental for several reasons:
+
+* Reusability: Write once, use many times.
+* Organization: Break code into smaller, manageable chunks.
+* Abstraction: Hide complex logic; user just calls a function.
+* Maintainability: Easy to debug and update.
+* Avoid repetition: Reduces redundant code.
+
+
+3. Anatomy of a Function
+-->Function Name – Identifier used to call the function.
+-->Parameters / Arguments – Inputs to the function.
+-->Body – Block of code that performs the task.
+-->Return Statement – Sends the result back to the caller.
+
+
+
+4. Types of Functions
+* Built-in Functions – Provided by language (e.g., print(), len()).
+* User-defined Functions – Functions you create.
+* Anonymous Functions (Lambda) – Single-line functions without a name.
+
+5. Function Parameters
+a)Positional parameters: Values must be passed in order.
+b)Keyword parameters: Use key=value to pass values.
+c)Default parameters: Provide default value if not passed.
+d)Variable-length parameters: Accept any number of inputs (*args, **kwargs).
+
+
+
+6. Return Values
+@ Functions may return a value using return.
+@ If no return, it returns None (Python) by default.
+
+
+
+
+
+7. What Happens Inside a Function (Behind the Scenes)
+i.Memory Allocation: Space is reserved for parameters and local variables.
+ii.Call Stack: Function calls are pushed onto a stack; after execution, popped.
+iii.Execution: Function body executes sequentially.
+iv.Return Value: Output sent back to caller.
+v.Garbage Collection: Local variables are cleared from memory.
+
+Visualization (simplified):
+
+Main program
+   |
+   v
+Call greet("Alice") → pushes on stack
+   |
+   v
+Execute function body
+   |
+   v
+Return value → pop from stack
+
+
+
+
+8.SUMMARY of functions:
+
+| Aspect   | Description                          |
+| -------- | ------------------------------------ |
+| Purpose  | Encapsulate code, reuse, abstraction |
+| Input    | Parameters / arguments               |
+| Output   | Return values (optional)             |
+| Types    | Built-in, user-defined, anonymous    |
+| Scope    | Local vs global variables            |
+| Advanced | Nested, higher-order, recursive      |
+
+*/
