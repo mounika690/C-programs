@@ -1,0 +1,56 @@
+/*
+WAF that finds duplicate elements in an array.
+*/
+
+#include <stdio.h>
+
+int main() {
+    int size;
+    scanf("%d", &size);
+
+    int arr[size];
+    for(int i = 0; i < size; i++) 
+    {
+        scanf("%d", &arr[i]);
+    }
+
+    int arr1[size];  // to store duplicates
+    int new_size = 0;
+
+    for(int i = 0; i < size; i++) 
+    {
+        int isDuplicate = 0;
+
+        // check if already added to arr1
+        for(int k = 0; k < new_size; k++) 
+        {
+            if(arr[i] == arr1[k]) 
+            {
+                isDuplicate = 1;
+                break;
+            }
+        }
+
+        if(isDuplicate) 
+          continue;
+
+        // check if it appears again in array
+        for(int j = i + 1; j < size; j++) 
+        {
+            if(arr[i] == arr[j]) 
+            {
+                arr1[new_size++] = arr[i];
+                break;
+            }
+        }
+    }
+
+    // print duplicates array
+    printf("Duplicates stored in new array:\n");
+    for(int i = 0; i < new_size; i++) 
+    {
+        printf("%d ", arr1[i]);
+    }
+
+    return 0;
+}
