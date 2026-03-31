@@ -1,0 +1,106 @@
+/*
+HOW TO INITIALIZE AND HOW TO WRITE FUNCTIONS
+*/
+// WHY 👉 Instead of writing the same code again and again, you reuse it.
+/*
+BASIC SYNTAX:
+return_type function_name(parameters) {
+    // code you want to write
+}
+*/
+
+//simple implementation of function without return and arguments
+#include<stdio.h>
+void greet()
+{
+  printf("Hello github users\n");
+}
+int main()                                 //OUTPUT : Hello github users
+{
+  greet();
+  return 0;
+}
+
+//implementation of functions using arguments and no return type
+
+#include <stdio.h>
+
+void add(int a, int b) 
+{
+    printf("Sum = %d\n", a + b);
+}
+
+int main()                                 //OUTPUT : sum = 7
+{
+    add(3, 4);
+    return 0;
+}
+
+
+//implementation of function using return value
+
+#include <stdio.h>
+
+int add(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int result = add(5, 6);
+    printf("Result = %d\n", result);
+    return 0;
+}
+
+
+/*
+WHAT IS FUNCTION PROTOTYPE:
+->you are declared befor use and and defined after the main function you are letting the compiler that i am going use it later
+
+
+#include <stdio.h>
+
+int add(int, int); // declaration
+
+int main() {
+    printf("%d", add(2,3));
+}
+
+int add(int a, int b) {
+    return a + b;
+}
+*/
+
+
+/*
+CALL BY VALUE :
+->the madifications doesn't reflect it later eventhough you changed
+
+EX:
+
+void change(int x) {
+    x = 100;
+}
+
+int main() {
+    int a = 10;
+    change(a);
+    printf("%d", a); // still 10
+}
+*/
+
+/*
+CALL BY REFERENCE :
+->the madifications doesn't reflect it later eventhough you changed
+
+EX:
+
+void change(int *x) {
+    *x = 100;
+}
+
+int main() {
+    int a = 10;
+    change(&a);
+    printf("%d", a); // changed to  100 bcz we are overwriting with 100
+}
+*/
