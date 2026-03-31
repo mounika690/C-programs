@@ -6,6 +6,8 @@
 - Basics (input/output, variables)
 - Conditionals (if, switch)
 - Loops (for, while, do-while)
+- Arrays(1D)
+- Functions
 
 ## Programs
 - Sum of numbers
