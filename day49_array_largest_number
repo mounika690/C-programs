@@ -1,0 +1,27 @@
+/*
+WAF that takes an array and returns largest element
+*/
+
+#include<stdio.h>
+  int largest(int arr[],int size)
+{
+  int large=arr[0];
+  for(int i=0;i<size;i++)
+  {
+    if(arr[i]>large)
+      large = arr[i];
+  }
+  return large;
+}
+  int main()
+{
+  int size;
+  scanf("%d",&size);
+  int arr[size];
+  for(int i=0;i<size;i++)
+  {
+    scanf("%d",&arr[i]);
+  }
+  int large = largest(arr,size);
+  printf("%d is the largest among array elements",large);
+}
